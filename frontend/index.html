@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine</title>
+    <link rel="stylesheet" href="/style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Rule Engine</h1>
+    
+    <form id="ruleForm">
+        <label for="ruleInput">Enter Rule:</label>
+        <input type="text" id="ruleInput" name="ruleInput" required>
+        <button type="submit">Generate AST</button>
+    </form>
+
+    <h2>Rules:</h2>
+    <ul id="ruleList"></ul>
+
+    <button id="combineButton">Combine Rules</button>
+    <button id="viewCombinedButton" style="display:none;">View Combined AST</button> <!-- New button -->
+
+    <h2>Combined Rule:</h2>
+    <pre id="combinedRuleOutput"></pre> <!-- Display combined rule here -->
+
+    <h2>Check Eligibility:</h2>
+    <form id="eligibilityForm">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required>
+        
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary" required>
+        
+        <label for="experience">Experience:</label>
+        <input type="number" id="experience" name="experience" required>
+        
+        <button type="submit" id="evaluateButton">Evaluate Eligibility</button>
+    </form>
+
+    <h3 id="eligibilityResult"></h3> <!-- Display eligibility result here -->
+
+    <script src="/script.js"></script>
+</body>
+</html>

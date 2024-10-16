@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+pre {
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style the list items */
+#ruleList li {
+    margin-bottom: 15px; /* Adds spacing between list items */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style the "View AST" button */
+#ruleList button {
+    padding: 8px 12px; /* Adds padding inside the button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Removes default borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin-left: 10px; /* Adds space between the rule text and the button */
+}
+
+/* Button hover effect */
+#ruleList button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
