@@ -3,10 +3,10 @@
 A simple rule engine that utilizes an Abstract Syntax Tree (AST) to evaluate conditional rules for determining user eligibility based on attributes like age, department, income, and spend.
 
 # Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express
-AST Parsing: jsep library
-Database: MongoDB (for storing and managing rules)
+    Frontend: HTML, CSS, JavaScript
+    Backend: Node.js, Express
+    AST Parsing: jsep library
+    Database: MongoDB (for storing and managing rules)
 
 # Setup Instructions
 Prerequisites
