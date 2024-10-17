@@ -1,36 +1,43 @@
-# Project : Rule Engine
+# **Project : Rule Engine**
 
 A simple rule engine that utilizes an Abstract Syntax Tree (AST) to evaluate conditional rules for determining user eligibility based on attributes like age, department, income, and spend.
 
-# Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express
-AST Parsing: jsep library
-Database: MongoDB (for storing and managing rules)
+# **Technologies Used**
 
-# Setup Instructions
-Prerequisites
-Ensure you have the following installed:
+    Frontend: HTML, CSS, JavaScript
+    Backend: Node.js, Express
+    AST Parsing: jsep library
+    Database: MongoDB (for storing and managing rules)
 
-Node.js (v14.x or above)
-MongoDB (v4.x or above)
+# **Setup Instructions**
+
+    Prerequisites
+    Ensure you have the following installed:
+
+    Node.js (v14.x or above)
+    MongoDB (v4.x or above)
 
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
     git clone https://github.com/your-username/rule-engine.git
     cd rule-engine
 
+2. **Navigate to the project directory:**
+   cd zeotap
 
-2. Install dependencies:
-    npm install
+3. **Install the dependencies for the server:**
+   cd backend 
+   npm install
 
-3. Set up MongoDB:
-   Ensure MongoDB is running on your machine, or set up a MongoDB instance in the cloud. Update the connection string in the code if needed.
+4. **Set Up Environment Variables in server:** 
+    Create a .env file in the backend directory and add the following variables:
+    MONGO_URI= your_mongodb_uri
 
-4. To run the application in the backend directory, use the following command:
-    nodemon app.js
+5. **To run the application in the backend directory, use the following command:**
+   nodemon app.js
+
 
 # Usage
     1. Open your web browser and navigate to http://localhost:3000.
