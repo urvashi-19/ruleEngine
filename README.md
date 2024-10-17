@@ -2,14 +2,13 @@
 
 A simple rule engine that utilizes an Abstract Syntax Tree (AST) to evaluate conditional rules for determining user eligibility based on attributes like age, department, income, and spend.
 
-# Technologies Used
+## Technologies Used
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express
 AST Parsing: jsep library
 Database: MongoDB (for storing and managing rules)
 
-# **Setup Instructions**
-
+## Setup Instructions
     Prerequisites
     Ensure you have the following installed:
 
@@ -20,23 +19,33 @@ Database: MongoDB (for storing and managing rules)
 ## Installation
 
 1. **Clone the repository:**
+    ```bash
     git clone https://github.com/your-username/rule-engine.git
     cd rule-engine
+    ```
 
 2. **Navigate to the project directory:**
+   ```bash
    cd zeotap
+   ```
 
 3. **Install the dependencies for the server:**
+   ```bash
    cd backend 
    npm install
+   ```
 
 4. **Set Up Environment Variables in server:** 
+
     Create a .env file in the backend directory and add the following variables:
+    ```bash
     MONGO_URI= your_mongodb_uri
+    ```
 
 5. **To run the application in the backend directory, use the following command:**
+   ```bash
    nodemon app.js
-
+   ```
 
 # Usage
     1. Open your web browser and navigate to http://localhost:3000.
