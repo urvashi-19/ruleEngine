@@ -44,4 +44,4 @@ Database: MongoDB (for storing and managing rules)
     3. Click on "Generate AST" to view the AST representation of the rule.
     4. Add multiple rules, and click "Combine Rules" to view the combined rule.
     5. Use the "View AST" button to visualize the AST for each rule.
-        After combining rules, the application will evaluate user eligibility based on the combined AST against the input user data .
+        After combining rules, the application will evaluate user eligibility based on the combined AST against  the input user data .
