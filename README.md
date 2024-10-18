@@ -21,28 +21,22 @@ A simple rule engine that utilizes an Abstract Syntax Tree (AST) to evaluate con
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/urvashi-19/ruleEngine.git
-    cd rule-engine
     ```
 
-2. **Navigate to the project directory:**
-   ```bash
-   cd zeotap
-   ```
-
-3. **Install the dependencies for the server:**
+2. **Install the dependencies for the server:**
    ```bash
    cd backend 
    npm install
    ```
 
-4. **Set Up Environment Variables in server:** 
+3. **Set Up Environment Variables in server:** 
 
     Create a .env file in the backend directory and add the following variables:
     ```bash
     MONGO_URI= your_mongodb_uri
     ```
 
-5. **To run the application in the backend directory, use the following command:**
+4. **To run the application in the backend directory, use the following command:**
    ```bash
    nodemon app.js
    ```
