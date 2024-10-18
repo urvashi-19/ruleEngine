@@ -21,6 +21,7 @@ A simple rule engine that utilizes an Abstract Syntax Tree (AST) to evaluate con
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/urvashi-19/ruleEngine.git
+    cd ruleEngine
     ```
 
 2. **Install the dependencies for the server:**
