@@ -20,7 +20,7 @@ A simple rule engine that utilizes an Abstract Syntax Tree (AST) to evaluate con
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/rule-engine.git
+    git clone https://github.com/urvashi-19/ruleEngine.git
     cd rule-engine
     ```
 
